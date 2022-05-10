@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- 1 -->
+    <form id="form">
+        <input type="text" placeholder="enter Project Name" id="textVal">
+        <button type="button" onclick="aa()">ADD</button>
+    </form>
+    <section class="container" id="container">
+        <div class="inProgress">
+            <h2 class=" h2-style gold">In Progress</h2>
+            <div class="tasksSection" id="inProgress"></div>
+        </div>
+        <div class="onHold">
+            <h2 class="h2-style red">On Hold</h2>
+            <div class="tasksSection" id="hold"></div>
+        </div>
+        <div class="review">
+            <h2 class="h2-style blue">In Review</h2>
+            <div class="tasksSection" id="review"></div>
+        </div>
+        <div class="approved">
+            <h2 class="h2-style green">Approved</h2>
+            <div class="tasksSection" id="Approved"></div>
+        </div>
+    </section>
+
+    <!-- 2 -->
+    <!-- <Svg style="width:600px; height:500px; border:3px solid rgb(230, 26, 179);">
+        <rect x="200" y="120" width="200" height="200"  rx="95px" ry="95px" fill="#a14c9c "> </rect>
+        
+        <circle cx="250" cy="175" r="25" stroke="rgb(74 63 100)" stroke-width="5" fill="rgb(150 126 184)"></circle>
+        <circle cx="250" cy="174" r="8" fill="black" ></circle>
+        <path d="M 276 175 395 175" stroke="rgb(74 63 100)" fill="rgb(#4D4D4D)" stroke-width="5"/>
+        <path d="M 205 175 225 175" stroke="rgb(74 63 100)" fill="rgb(#E09B2D)" stroke-width="5"/>
+        <circle cx="350" cy="175" r="25" stroke="rgb(74 63 100)" stroke-width="5" fill="rgb(150 126 184)"></circle>
+        <circle cx="350" cy="174" r="8" fill="black" ></circle>
+        <path d="M 330 250 C 330 290, 280 300, 260 250" stroke="black" fill="rgb(126, 184, 162)" stroke-width="5" />
+          </Svg>   -->
+
+    <script src="day2.js"></script>
+</body>
+
+</html>
